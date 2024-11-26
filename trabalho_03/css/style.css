@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/* colunas */
+
+.col-md-4 {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: justify;
+}
+  
+.col-lg-4 {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: justify;
+}
+.col-lg-8 {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+/* header */
+
+.bg-custom {
+    background-color: #2d62b9;
+}
+
+/* index */
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: #fff;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    color: #ffffff;
+}
+.nav-footer img {
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 700px) {
+footer {
+    display: flex;
+    flex-direction: column;
+}
+footer nav {
+    margin: 0;
+    padding: 10px 0;
+}
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer {padding: 0 5px;}
+}
+
+/* business */
+
+.mainBusiness {
+    text-align: justify;
+}
+
+.main-content {
+    padding: 40px 0;
+}
+.main-image {
+    background-color: #777;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.buttons .btn {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #cccccc;
+    border: none;
+    padding: 10px;
+    color: #333;
+}
+.form-container input, .form-container textarea {
+    margin-top: 10px;
+}
+.form-container button {
+    background-color: #777;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.imagemBusiness {
+    height: 700px; 
+    width: 500px;
+}
+
+.duvidaBusiness {
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+
+.imagemBusiness {
+    height: 400px; 
+    width: 300px;
+}
+
+}
+
+/* INGRESSOS */
+
+.top-image {
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: #777;
+    border-radius: 8px;
+    position: relative;
+}
+.ticket-item {
+    width: 100%;
+    padding-top: 125%;
+    background-color: #555;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.ticket-item:hover {
+    transform: scale(1.05);
+}
+.ticket-item button {
+    background-color: #555;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* localizacao */
+
+.colunasLocalizacao {
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    text-align: justify;
+}
+
+@media (max-width: 700px) {
+
+.imgLocalizacao {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+}
+
+/* noticias */
+
+.articleNoticias {
+    max-width: 90%;
+    margin: auto;
+}
+.sectionNoticias {
+    display: flex;
+    justify-content: center;
+}
+
+.linha {
+    margin-bottom: 2%;
+}
+
+.linha-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 500px) {
+
+.cardNoticias {
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+
+/* programacao */
+
+.articleProgramacao {
+    max-width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+.sectionProgramacao {
+    display: flex;
+    justify-content: center;
+}
+
+.bodertotal {
+    border-radius: 100%;
+}
+
+/* faq, quem somos e normas */
+
+.mainFAQ {
+    text-align: justify;
+}
+
+.mainNormas {
+    text-align: justify;
+}
+
+.textNormas {
+    padding: 20px 0px;
+}
+
+.article {
+    padding: 30px;
+    text-align: justify;
+    display: block;
+}
+
+
+
+
+
+/*FAQ*/
+
+.conteudo {
+    background-color: antiquewhite;
+    margin: 60px;
+}
+
+.form-faq {
+    margin-top: 150px;
+}
