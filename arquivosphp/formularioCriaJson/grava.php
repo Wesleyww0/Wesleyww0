@@ -3,15 +3,15 @@
 // funções de validação
 
 // validando se esta escrito ou vazio
-$Nome = (isset($_POST['Nome'])) ? $_POST ['Nome'] : '' ;
-$Idade = (isset($_POST['Idade'])) ? $_POST ['Idade'] : '' ;
-$Trabalho = (isset($_POST['Trabalho'])) ? $_POST ['Trabalho'] : '' ;
+$nome = (isset($_POST['nome'])) ? $_POST ['nome'] : '' ;
+$Iiade = (isset($_POST['idade'])) ? $_POST ['idade'] : '' ;
+$trabalho = (isset($_POST['trabalho'])) ? $_POST ['trabalho'] : '' ;
 
 // array das variaveis
 $json = [
-    'Nome'=>$Nome,
-    'Idade'=>$Idade,
-    'Trabalho'=>$Trabalho
+    'nome'=>$nome,
+    'idade'=>$idade,
+    'trabalho'=>$trabalho
 ];
 
 
