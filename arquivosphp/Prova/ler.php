@@ -24,7 +24,7 @@
     echo 'Idade: ' . $dados -> idade . '<br>';
     echo 'trabalho'. $dados -> trabalho .'<br>';
 
-    header('Location: /listar.php');
+    // header('Location: /listar.php');
     
     // Forma de array associativo (basta adicionar o 'true'  no json decode) 
     

@@ -25,6 +25,7 @@
         <a href="cadastro.php">Cadastro</a>
          
     </nav>
+    <br>
     <h1>LISTA DE ARQUIVOS <?= date('d/m/Y') ?></h1>
     <hr>
     <?php 
@@ -56,8 +57,8 @@
                         $html .= "<tr>
                                     <td>$dados->nome</td>
                                     <td>$dados->idade</td>
-                                    <td><a href='arquivo/$arquivo' target='_blank'>$arquivo</a></td>
-                                </tr>";
+                                    <td><a href='arquivo/$arquivo' target='_blank'>$arquivo</a></td> 
+                                </tr>"; // target='_blank' -> para abrir ma paginaa nova quando clica no link
                     }
                 }
                 echo $html;
