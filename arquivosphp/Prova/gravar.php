@@ -8,8 +8,8 @@ function limpa($documento){
 
 
 
-//rand para criar arquivos json diferentes aleatorios ( porém acredito que sobrescreve, vou descobrir como resolver)
-$controle = rand(1,555);
+//rand para criar arquivos json diferentes aleatorios ( porém acredito que sobrescreve, vou uniqed, pois cria arquivos unicos)
+$controle = uniqid();
 
 // validando se esta escrito ou vazio
 $nome = (isset($_POST['nome'])) ? $_POST ['nome'] : '' ;
@@ -23,16 +23,10 @@ $trabalho = (isset($_POST['trabalho'])) ? $_POST ['trabalho'] : '' ;
 
 // limpando os campos de caracteres especiais
 $nomeLimpo = limpa($nome);
-$idadeLimpo = limpa($idade);
+$idadeLimpo = limpa($idade); // desnecessario a função limpa
 $trabalhoLimpo = limpa($trabalho);
 
-// gerando mensagens de erro com if
 
-$msgErro = '';
-
-    if (empty($nomeLimpo) || empty($idadeLimpo) || empty($trabalhoLimpo)) {
-        $msgErro .= '- Existem campos não preenchidos no cadastro <BR>';
-    }
 
 // array das variaveis
 $json = [
@@ -41,6 +35,17 @@ $json = [
     'trabalho'=>$trabalhoLimpo
 ];
 
+ // gerando mensagens de erro com if
+
+ $msgErro = '';
+
+ if (empty($nome) || empty($idade) || empty($trabalho)) {
+     echo "- Existem campos faltantes!! <br> preencha novamente o cadastro!! ";
+     exit;
+     }
+
+
+     
 
 //definindo o arquivo resultante, abrindo o recurso
 $fh = fopen("arquivo/Dados$controle.json", 'w');
@@ -55,6 +60,7 @@ fclose($fh);
 
 //header('Location: listar.php');
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -75,5 +81,5 @@ fclose($fh);
 <h2><a href="listar.php">Ver lista de Cadastro</a></h2>
     
 </body>
-</html>
+</html> 
 

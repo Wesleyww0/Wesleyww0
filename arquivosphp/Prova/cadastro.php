@@ -20,11 +20,12 @@
 
     <form action="gravar.php" method="post">
         <label>Nome</label>
-        <input type="text" name="nome" id="nome" required><br><br><br> <!-- coloquei required para os campos serem obrigatorios -->
+        <input type="text" name="nome" id="nome" ><br><br><br> <!-- coloquei required para os campos serem obrigatorios -->
+        
         <label>Idade</label>
-        <input type="number" name="idade" id="idade" required><br><br><br>
+        <input type="number" name="idade" id="idade" ><br><br><br>
         <label>Trabalho</label>
-        <input type="text" name="trabalho" id="trabalho" required>
+        <input type="text" name="trabalho" id="trabalho" >
         <button>Enviar</button>
     </form>
 
