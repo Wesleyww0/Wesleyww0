@@ -21,4 +21,4 @@
 - 2650832413001
 
 **Descrição do trabalho**:
-Projeto integrador finalizado e validado
+Projeto integrador em construção

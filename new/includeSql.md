@@ -254,7 +254,211 @@ INSERT INTO paginas (nome,conteudo) VALUES
                 </figure>
             </div>
         </div>
-    </div>'),
+    </div>'),('noticias', '<main class="container articleNoticias">
+
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <img src="imagens/noticia1.jpg" class="card-img-top" alt="Imagem da notícia">
+                <div class="card-body">
+                    <h5 class="card-title">Fatec São Roque realiza a primeira edição do FateconHQs</h5>
+                    <p class="card-text">Exposição contará com trabalhos de quadrinistas, workshops de ilustração de quadrinhos e de orientação à leitura e praça de alimentação.</p>
+                    <a href="https://www.cps.sp.gov.br/fatec-sao-roque-realiza-a-primeira-edicao-do-fateconhqs/" class="btn btn-primary">
+                        <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda linha -->
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <div class="card">
+                <img src="imagens/noticia2.jpg" class="card-img-top" alt="Imagem da notícia">
+                <div class="card-body">
+                    <h5 class="card-title">Mais de 60 quadrinistas se reúnem em feira de quadrinhos</h5>
+                    <p class="card-text">A cidade de São Roque será transformada em uma grande feira de quadrinhos neste fim de semana...</p>
+                    <a href="https://foradoplastico.com.br/mais-de-60-quadrinistas-se-reunem-em-feira-de-quadrinhos-no-interior-de-sao-paulo/" class="btn btn-primary">
+                        <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagens/noticia3.jpg" class="card-img-top" alt="Imagem da notícia">
+                <div class="card-body">
+                    <h5 class="card-title">FATECON HQs: evento de quadrinhos em São Roque</h5>
+                    <p class="card-text">O evento terá diversas atrações, como exposição e vendas de HQs, palestras, oficinas...</p>
+                    <a href="https://universohq.com/noticias/fatecon-hqs-evento-de-quadrinhos-em-sao-roque/" class="btn btn-primary">
+                        <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terceira linha -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagens/noticia4.jpg" class="card-img-top" alt="Imagem da notícia">
+                <div class="card-body">
+                    <h5 class="card-title">São Roque recebe FATECon HQs 2023</h5>
+                    <p class="card-text">Preparem suas fantasias e afinem seus superpoderes! A cidade de São Roque tem o orgulho de receber a FATECon HQs...</p>
+                    <a href="https://www.odemocrata.com.br/cultura/sao-roque-recebe-fatecon-hqs-2023-uma-imersao-no-universo-geek-e-nerd/" class="btn btn-primary">
+                        <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagens/noticia5.jpg" class="card-img-top" alt="Imagem da notícia">
+                <div class="card-body">
+                    <h5 class="card-title">Vencedores do Concurso "Desenhe São Roque 2024"</h5>
+                    <p class="card-text">Atenção, vencedores e finalistas! Seus prêmios estarão disponíveis para retirada na FATEC São Roque...</p>
+                    <a href="https://www.facebook.com/fateconhqs/posts/" class="btn btn-primary">
+                        <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagens/noticia6.jpg" class="card-img-top" alt="Imagem da notícia">
+                <div class="card-body">
+                    <h5 class="card-title">FATECon HQs na Rádio Coluna FM</h5>
+                    <p class="card-text">Hoje à noite, o organizador Rubens Menezes estará no programa BATE PAPO para falar sobre a FATECon HQs 2024...</p>
+                    <a href="https://www.facebook.com/fateconhqs/posts/" class="btn btn-primary">
+                        <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center btn-voltar">
+        <a href="#" class="btn btn-outline-secondary">Voltar ao topo</a>
+    </div>
+</main>'),
+('programacao', '<div class="articleProgramacao">
+<section class="m-5 sectionprogramacao">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <img src="imagens/cecilia.jpg" class="img-fluid" alt="Foto da Cecília Marins">
+        </div>
+        <div class="col-12 col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">FATECon HQs 2024 – Sexta-feira: 10h-11h</h5>
+                <p class="card-text">Oficina "Você em HQ" com Cecília Marins. Aprenda a transformar suas histórias em quadrinhos usando técnicas de narrativa visual e criação de personagens. Atividade para todos os níveis, focada em despertar criatividade e produzir um esboço de sua própria HQ!</p>
+                <a href="https://www.instagram.com/fateconhqs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-primary">
+                    <i class="bi bi-box-arrow-right"></i> Saiba Mais
+                </a>
+                <div class="m-1">
+                    <a href="https://www.instagram.com/fateconhqs/" target="_blank">
+                        <i class="bi bi-instagram fs-3"></i>
+                    </a>
+                    <a href="https://x.com/governosp/" target="_blank">
+                        <i class="bi bi-twitter-x fs-3"></i>
+                    </a>
+                    <a href="https://www.facebook.com/governosp/" target="_blank">
+                        <i class="bi bi-facebook fs-3"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="m-5 sectionprogramacao">
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-4 order-1 order-md-2">
+                <img src="imagens/marco.jpg" class="img-fluid rounded-start" alt="Foto de Marco A. Cortez">
+            </div>
+
+            <div class="col-12 col-md-8 order-2 order-md-1 mb-4 mb-md-0">
+                <div class="card-body">
+                    <h5 class="card-title">FATECon HQs 2024 – Sábado: 10h-11h</h5>
+                    <p class="card-text">Personagens são a alma de qualquer história, e nesta oficina com Marco A. Cortez, você aprenderá como criar personagens memoráveis e cheios de vida. Marco, conhecido por suas ilustrações expressivas, abordará aspectos como design, construção de personalidade e desenvolvimento de backstory. A oficina começa com exercícios práticos de esboço, seguidos por técnicas para criar protagonistas e antagonistas envolventes. Você explorará como os traços físicos e psicológicos podem contar histórias e conectar-se com o público. Ao final, os participantes terão criado personagens únicos, prontos para ganhar vida em suas próprias histórias ou projetos futuros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-5 sectionprogramacao">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+                <img src="imagens/rafael.jpg" class="img-fluid rounded-start" alt="Foto de Rafael Marçal">
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">FATECon HQs 2024 – 20/09 e 21/09</h5>
+                    <p class="card-text">Já pensou em se tornar um quadrinista profissional? Rafael Marçal, artista conhecido por suas tirinhas e quadrinhos bem-humorados, compartilhará suas experiências no mundo das HQs. Neste bate-papo, ele abordará desde os desafios iniciais até a rotina de trabalho e os segredos para se destacar em um mercado competitivo. Rafael discutirá o processo criativo, desde a ideia até o produto final, passando pelo roteiro, ilustração e publicação. Ele também responderá perguntas do público sobre como começar na carreira, buscar oportunidades e lidar com os desafios do mercado. Uma conversa essencial para quem sonha em transformar a paixão por quadrinhos em profissão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>'),
+('ingressos','    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-6">
+                <img src="imagens/avisoIngressos.png" class="img-fluid" alt="Aviso de acesso com crianças">
+            </div>
+            <div class="col-6">
+                <img src="imagens/aviso1Ingressos.png" class="img-fluid" alt="Aviso de controle de acesso">
+            </div>
+        </div>
+    </div>
+    <main class="container my-5">
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="imagens/ingresso1.png" class="img-fluid" alt="Ingresso básico">
+                    <a href="imagens/ingresso1.png" download="ingresso_basico" class="btn btn-primary mt-3"><i class="bi bi-download"></i> Baixar ingresso</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="imagens/ingresso2.png" class="img-fluid" alt="Ingresso VIP">
+                    <a href="imagens/ingresso2.png" download="ingresso_vip" class="btn btn-primary mt-3"><i class="bi bi-download"></i> Baixar ingresso</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="imagens/ingresso3.png" class="img-fluid" alt="Ingresso oficina">
+                    <a href="imagens/ingresso3.png" download="ingresso_oficina" class="btn btn-primary mt-3"><i class="bi bi-download"></i> Baixar ingresso</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="imagens/ingresso4.png" class="img-fluid" alt="Ingresso cosplay">
+                    <a href="imagens/ingresso4.png" download="ingresso_cosplay" class="btn btn-primary mt-3"><i class="bi bi-download"></i> Baixar ingresso</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="imagens/ingresso5.png" class="img-fluid" alt="Ingresso estudante">
+                    <a href="imagens/ingresso5.png" download="ingresso_estudante" class="btn btn-primary mt-3"><i class="bi bi-download"></i> Baixar ingresso</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="imagens/ingresso6.png" class="img-fluid" alt="Ingresso familia">
+                    <a href="imagens/ingresso6.png" download="ingresso_familia" class="btn btn-primary mt-3"><i class="bi bi-download"></i> Baixar ingresso</a>
+                </div>
+            </div>
+        </div>
+        <section class="my-5">
+            <h2 class="fw-bold">Ingresso Gratuito, Acesso Exclusivo com Apresentação Física</h2>
+            <p>Os ingressos para o Fatecon são gratuitos, mas para garantir seu acesso ao evento, é necessário imprimir o ingresso e apresentá-lo fisicamente na entrada. Essa medida é adotada para garantir o controle adequado de público e a segurança de todos os participantes.</p>
+            <h2 class="fw-bold mt-4">Controle de acesso</h2>
+            <p>Embora os ingressos sejam gratuitos, pedimos que, ao chegar ao evento, você apresente o ingresso impresso. Isso facilita o controle de entrada, garantindo uma melhor organização e segurança durante o evento. Certifique-se de ter seu ingresso impresso para evitar contratempos.</p>
+        </section>
+    </main>'),
 	 ('business','<main>
 <div class="container main-content">
     <div class="row">

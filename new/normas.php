@@ -3,7 +3,7 @@
 
 $pagina = 'normas';
 
-$sql = "SELECT titulo, conteudo FROM paginas WHERE nome = ?";
+$sql = "SELECT conteudo FROM paginas WHERE nome = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $pagina);
 $stmt->execute();
